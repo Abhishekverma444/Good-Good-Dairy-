@@ -5,6 +5,8 @@ import { Route, Routes } from 'react-router-dom';
 import About from './About';
 import Contact from './Contact';
 import InstaMart from './InstaMart';
+import Cart from './Cart';
+import RestaurantMenu from './RestaurantMenu';
 
 const Body = ({ searchValue }) => {
     const [restaurants, setRestaurants] = useState([]);
@@ -20,7 +22,7 @@ const Body = ({ searchValue }) => {
     }, [searchValue]);
 
     return (
-        <div className='flex flex-wrap bg-red-400'>
+        <div className='pt-36 flex flex-wrap bg-red-400 '>
             <Routes>
                 <Route exact path="/" element={
                     restaurants.map((restaurant, index) => (
@@ -30,6 +32,8 @@ const Body = ({ searchValue }) => {
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/instamart" element={<InstaMart />} />
+                <Route path="/cart" element={<Cart />} />
+                <Route path="/restaurantmenu/:restaurantId" element={<RestaurantMenu />} />
             </Routes>
         </div>
     );

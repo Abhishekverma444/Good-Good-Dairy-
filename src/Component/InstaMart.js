@@ -2,7 +2,7 @@ import React from 'react';
 
 const InstaMart = () => {
   return (
-    <div>InstaMart</div>
+    <div className='h-screen font-bold text-6xl'>InstaMart</div>
   )
 }
 

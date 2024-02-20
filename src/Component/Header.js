@@ -9,7 +9,7 @@ const Header = ({onSearchChange}) => {
   };
 
   return (
-    <div className='h-36 bg-fixed'>
+    <div className='h-36 bg-fixed fixed top-0 left-0 right-0'>
         <Navbar/>
         <Search onSearchChange={onSearchChange} handleClick={handleClick} />
     </div>
