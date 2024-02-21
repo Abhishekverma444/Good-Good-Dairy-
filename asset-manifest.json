@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Good-Good-Dairy/static/css/main.a37349a7.css",
+    "main.js": "/Good-Good-Dairy/static/js/main.6bb8f2e8.js",
+    "static/js/512.023a15b4.chunk.js": "/Good-Good-Dairy/static/js/512.023a15b4.chunk.js",
+    "index.html": "/Good-Good-Dairy/index.html",
+    "main.a37349a7.css.map": "/Good-Good-Dairy/static/css/main.a37349a7.css.map",
+    "main.6bb8f2e8.js.map": "/Good-Good-Dairy/static/js/main.6bb8f2e8.js.map",
+    "512.023a15b4.chunk.js.map": "/Good-Good-Dairy/static/js/512.023a15b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a37349a7.css",
+    "static/js/main.6bb8f2e8.js"
+  ]
+}
